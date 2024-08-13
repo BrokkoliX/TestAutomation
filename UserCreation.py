@@ -69,5 +69,5 @@ def test_practitest_contact_form():
     update_practitest()
 
 
-f __name__ == "__main__":
+if __name__ == "__main__":
     test_practitest_contact_form()
