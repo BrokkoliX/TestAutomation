@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 import argparse
 import base64
+import os
 
 def update_practitest(email, token, project_id, instance_id, log_file, script_path):
     url = f'https://api.practitest.com/api/v2/projects/{project_id}/runs.json'
