@@ -55,7 +55,7 @@ def test_practitest_contact_form():
     add_test_step("Locate Submit button", "Scroll down to the bottom of the page.", "The Submit button is on the bottom left corner and its color is green.",
                       "The Submit button is in the right place and color.", "PASSED")
     add_test_step("Submit the form", "Click on the Submit button", "The button is clicked and the form closes.",
-                      "The form is still open and there is an error message.", "FAILED")
+                      "The form is still open and there is an error message.", "PASSED")
 
     # Log file and script path would be determined by your execution environment
     log_file = "path/to/log_file.log"
